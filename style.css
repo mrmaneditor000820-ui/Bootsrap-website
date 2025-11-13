@@ -11,15 +11,53 @@ width:100%;
 .login{
     color:black;
     text-decoration: none;
+    font-size: 10px;
 }
 .singup{
     color: black;
     text-decoration: none;
+    font-size: 10px;
 }
 body{
     overflow-x: hidden;
 }
-
+li a{
+    text-decoration: none;
+    color: black;
+}  
+li{
+    cursor: pointer;
+}
+.card:hover{
+    transition:1s;
+    transform: scale(1.1);
+}
+@media {
     
-
     
+}
+.addto:hover{
+    transition: 1s;
+    transform: scaleX(1.2);
+
+}
+.input{
+    border-radius: 10px;
+    border-color: orangered;
+
+}
+body{
+    font-family:'Times New Roman', Times, serif;
+}
+.form{
+    margin:60px auto;
+    width:90%;
+
+}
+.form2{
+    border: 2px solid black;
+    width: 70%;
+    margin: 50px auto;
+    border-radius: 10px;
+    border-color: orangered;
+}
