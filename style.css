@@ -1,3 +1,10 @@
+
+
+body{
+    font-family:'Times New Roman', Times, serif;
+    overflow-x: hidden;
+}
+
 .logo img{
 width:100%;
 }
@@ -18,9 +25,7 @@ width:100%;
     text-decoration: none;
     font-size: 10px;
 }
-body{
-    overflow-x: hidden;
-}
+
 li a{
     text-decoration: none;
     color: black;
@@ -32,10 +37,6 @@ li{
     transition:1s;
     transform: scale(1.1);
 }
-@media {
-    
-    
-}
 .addto:hover{
     transition: 1s;
     transform: scaleX(1.2);
@@ -45,9 +46,6 @@ li{
     border-radius: 10px;
     border-color: orangered;
 
-}
-body{
-    font-family:'Times New Roman', Times, serif;
 }
 .form{
     margin:60px auto;
@@ -60,4 +58,24 @@ body{
     margin: 50px auto;
     border-radius: 10px;
     border-color: orangered;
+}
+    
+
+.contact{
+    border: 2px solid black;
+    width: 50%;
+    margin: 50px auto;
+    border-radius: 10px;
+    border-color: orangered;
+
+}
+.messege{
+    width: 100%;
+}
+.submit{
+    width: 100%;
+    text-align: center;
+    color:white;
+    border-radius: 10px;
+    background-color:skyblue;
 }

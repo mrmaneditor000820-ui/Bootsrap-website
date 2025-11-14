@@ -4,17 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CONTACT</title>
-     <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+     
 </head>
 <body>
-     <header class= " container-fluid border border-bottam border-danger d-flex flex-wrap justify-content-between align-items-center gap-5 gap-sm-5">
+     <header class= " container-fluid  d-flex flex-wrap justify-content-between align-items-center gap-5 gap-sm-5">
         <a href="./index.html">
-    <div class="logo"><img class="border border-1 rounded-circle border-danger" src="logo.jpg" alt=""></div>
+    <div class="logo"><img class="" src="logo.jpg" alt=""></div>
         </a>
         <div>
             <nav class="nav d-none d-sm-block">
@@ -23,7 +24,7 @@
                     <li><a href="./about.html">ABOUT</a></li>
                     <li>GELLERY</li>
                     <li>REVIEWS</li>
-                    <li style="color: red;">CONTACT</li>
+                    <li style="color: orangered;">CONTACT</a></li>
                     <li> <i class="fa-solid fa-magnifying-glass"></i><input class="search" type="search"
                  placeholder="Search items"></li>
                 </ul>
@@ -35,48 +36,39 @@
             <a class="login" href="./login.html"><i class="fa-solid fa-right-to-bracket fs-3"></i></a>   
         </div>    
     </header>
-   <body style="background-color:bisque;">
+   
     <div>
-    <fieldset>
-
-    <h3>FILL THE FORM FOR CONTACT ME.</h3>
-    <form>
-        <table><tr>
-            <td><label>User Name.</label></td>
-            <td><input class="input" type="text" placeholder="Enter Your Name" required</td>
-        </tr>
-             <td><label>Email.</label></td>
-            <td><input class="input" type="email" placeholder="Enter Your Email" required</td>
-            <tr>  
-             <td><label>Password.</label></td>
-            <td><input class="input" type="password" placeholder="Enter Your pin" required</td>
-            </tr>
-             </table>
-             <table>
-                 <h4>Gender.</h4><tr>
-           <td><input type="radio"required  name="name"> Male </td>
-          <td><input type="radio"  name="name"> Female</td>
-           </tr>
-       
-             </table>
-          
-         
     
-        <h4>YOUR BIRTH.</h4>
-        <table><td><input class="input" type="date" placeholder="Enter Your Birth"</td>
-     
-        <table>
-            <h4>HOW CAN I HELP YOU.</h4><tr>
-            <td><textarea class="input" name="Comments" placeholder="Enter Your Comments." required cols="20" rows="5"></textarea></td></tr>
-        </table>
-        <table><h4><button class="input">SUBMIT</a></button></h4></table>
-        <table>
-            <th>CONTACT NUMBER.</th><tr>
-            <td><h3>03262313468.</h3></td>
+    <h1 class="text-center">CONTACT.</h1>
+
+    <form>
+        <tr>
+            <label class="form-label mb-3">User Name.</label>
+            <td><input class="form-control"  type="text" placeholder="Enter Your Name" required ></td>
+        </tr>
+            <label>Email.</label>
+            <td><input class="form-control" type="email" placeholder="Enter Your Email" required>
+            <tr>  
+             <label>Password.</label>
+            <input class="form-control" type="password" placeholder="Enter Your pin" required >
             </tr>
-        </table>
-    </form>
-</fieldset>
+        
+           <label class="mb-3 mt-2">HOW CAN I HELP YOU.</label><tr>
+            <td><textarea class="messege" name="Comments" placeholder="Enter Your Comments." required cols="" rows="5"></textarea></td></tr>
+        
+        <button type="button" class="btn btn-primary">SUBMIT</button>
+        </form>
 </div>
+<footer class="bg-dark text-white text-center py-3 mt-5">
+  <div class="container">
+    <p class="mb-1">&copy; 2025 MR.MAN All Rights Reserved.</p>
+    <div>
+      <a href="#" class="text-white mx-2 text-decoration-none">Home</a>
+      <a href="#" class="text-white mx-2 text-decoration-none">About</a>
+      <a href="#" class="text-white mx-2 text-decoration-none">Contact</a>
+    </div>
+  </div>
+</footer>
+
 </body>
 </html>
